@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/leapfrog-intern-projects/static/css/main.c1573472.chunk.css",
+    "main.js": "/leapfrog-intern-projects/static/js/main.3626b95e.chunk.js",
+    "main.js.map": "/leapfrog-intern-projects/static/js/main.3626b95e.chunk.js.map",
+    "runtime-main.js": "/leapfrog-intern-projects/static/js/runtime-main.5c5a2ec9.js",
+    "runtime-main.js.map": "/leapfrog-intern-projects/static/js/runtime-main.5c5a2ec9.js.map",
+    "static/js/2.da7a1738.chunk.js": "/leapfrog-intern-projects/static/js/2.da7a1738.chunk.js",
+    "static/js/2.da7a1738.chunk.js.map": "/leapfrog-intern-projects/static/js/2.da7a1738.chunk.js.map",
+    "index.html": "/leapfrog-intern-projects/index.html",
+    "precache-manifest.f2903b52eb0deef2c7d70df8c984694e.js": "/leapfrog-intern-projects/precache-manifest.f2903b52eb0deef2c7d70df8c984694e.js",
+    "service-worker.js": "/leapfrog-intern-projects/service-worker.js",
+    "static/css/main.c1573472.chunk.css.map": "/leapfrog-intern-projects/static/css/main.c1573472.chunk.css.map",
+    "static/js/2.da7a1738.chunk.js.LICENSE.txt": "/leapfrog-intern-projects/static/js/2.da7a1738.chunk.js.LICENSE.txt",
+    "static/media/ant-smasher.png": "/leapfrog-intern-projects/static/media/ant-smasher.f3f96bd0.png",
+    "static/media/styles.css": "/leapfrog-intern-projects/static/media/background.672d60d7.png",
+    "static/media/bumpsheep.png": "/leapfrog-intern-projects/static/media/bumpsheep.599aad7a.png",
+    "static/media/car-game.png": "/leapfrog-intern-projects/static/media/car-game.43a0c9fc.png",
+    "static/media/design-2.png": "/leapfrog-intern-projects/static/media/design-2.18c4c4a5.png",
+    "static/media/design-final-2.png": "/leapfrog-intern-projects/static/media/design-final-2.caf14302.png",
+    "static/media/design-final.png": "/leapfrog-intern-projects/static/media/design-final.fa810b4e.png",
+    "static/media/flappy-bird.png": "/leapfrog-intern-projects/static/media/flappy-bird.3392e01a.png",
+    "static/media/helix.png": "/leapfrog-intern-projects/static/media/helix.36300d63.png",
+    "static/media/image-slider.png": "/leapfrog-intern-projects/static/media/image-slider.e689e3cf.png",
+    "static/media/profile.jpg": "/leapfrog-intern-projects/static/media/profile.3424b4c0.jpg",
+    "static/media/tollens.png": "/leapfrog-intern-projects/static/media/tollens.2704b3fa.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c5a2ec9.js",
+    "static/js/2.da7a1738.chunk.js",
+    "static/css/main.c1573472.chunk.css",
+    "static/js/main.3626b95e.chunk.js"
+  ]
+}
