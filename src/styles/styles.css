@@ -1,0 +1,255 @@
+body{
+    width: 100%;
+    position: relative;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header{
+    width: 100%;
+    position: relative;
+    /* height: 100%; */
+    min-height: 60vh;
+    height: 60vh;
+    top: 0;
+    background: url(../assets/images/background.png) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.background-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.671);
+    width: 100%;
+    min-height: 60vh;
+    height: 60vh;
+}
+
+.hero-container{
+    position: relative;
+}
+
+.hero-title{
+    color: #fff;
+    width: 80%;
+    margin: 0 auto;
+}
+.hero-title h1{
+    text-align: left;
+    line-height: 1.5em;
+    font-size: 64px;
+}
+
+.hero-title h1 span{
+    color: #367EE8;
+}
+
+.hero-title h2{
+    line-height: 1.3em;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.hero-title h2 span{
+    color:#36E868;
+}
+
+.hero-title .about-company{
+    outline: 0;
+    padding: 14px;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #36E868;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.hero-title .about-company:hover{
+    background-color: #36E868;
+}
+
+.my-testimonial{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    padding:10px;
+}
+
+.my-testimonial .image-wrapper{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.my-testimonial .speech-box{
+    position: relative;
+    top: -90px;
+    /* max-width: 90%; */
+    margin: auto;
+    padding:40px;
+    background-color: #48BDC5;
+    border-top-right-radius: 120px;
+    border-bottom-left-radius: 120px;
+    z-index: -1;
+}
+
+.speech-box blockquote{
+    position: relative;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.6em;
+    color: #fff;
+    margin: 70px 60px 30px;
+    padding: 0;
+}
+.speech-box blockquote::before{
+    content: '\201C';
+    font-family: 'Lucida Sans';
+    font-size: 70px;
+    position: relative;
+    color: #fff;
+    right: 15px;
+    top: 20px;
+}
+
+
+footer{
+    background-color: #21272c;
+    color: #ffffff;
+}
+
+.top-footer-wrapper{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.102);
+
+}
+
+.top-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.top-footer-wrapper .col {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer h3 {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  line-height: 1.5em;
+}
+
+footer p{
+    font-size: 14px;
+    color: #dddbdb;
+    line-height: 1.3em;
+    margin:10px 0;
+}
+.social-media{
+    margin-top: 15px;
+}
+.social-media li {
+    display: inline-block;
+    margin-right: 8px;
+  }
+  
+.copyright{
+    font-size: 14px;
+    line-height: 1.714;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/* ---------------MEDIA QUERY----------------------- */
+
+@media only screen and (max-width: 890px){
+    .my-testimonial{
+        width: 100%;
+    }
+    .hero-title{
+        width: 90%;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+    .my-testimonial .image-wrapper img,
+    .my-testimonial .image-wrapper{
+        width: 180px;
+        height: 180px;
+    }
+    .my-testimonial .speech-box{
+        top: -80px;
+        padding:20px;
+    }
+    .hero-title h1{
+        font-size: 48px;
+    }
+
+    .hero-title h2{
+        font-size: 24px;
+    }
+
+}
+
+@media only screen and (max-width: 480px){
+    .my-testimonial .image-wrapper img,
+    .my-testimonial .image-wrapper{
+        width: 150px;
+        height: 150px;
+    }
+    .my-testimonial .speech-box{
+        top: -70px;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-top-right-radius: 80px;
+        border-bottom-left-radius: 80px;
+    }
+    .speech-box blockquote{
+        font-size: 16px;
+        line-height: 1.4em;
+        margin: 48px 30px 10px 50px;
+    }
+    .hero-title h1{
+        font-size: 32px;
+    }
+
+    .hero-title h2{
+        font-size: 20px;
+    }
+
+    .copyright{
+        font-size: 12px;
+    }
+
+}
+
